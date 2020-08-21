@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <header><h1>ChordTester</h1></header>
+    <nav role="navigation" id="burg-nav">
+        <div id="menuToggle">
+          <input type="checkbox" id="burg-menu"/>
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./test-chords.html">Hear Chords</a></li>
+            <li><a href="./my-chords.html">My Chords</a></li>
+            <li><a href="./account.html">Account</a></li>
+          </ul>
+        </div>
+      </nav>
+    <h2>Create Your Account</h2>
+    <section class="signup-section" id="signup-section">
+        <form>
+            <label for="name">Enter Your Full Name:</label>
+            <input type="text" id="name"><br>
+            <label for="email">Enter Your Email</label>
+            <input type="text" id="email"><br>
+            <label for="email-list">Would you like to receive our newsletter?</label>
+            <input type="radio" id="email-list" value="yes"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
